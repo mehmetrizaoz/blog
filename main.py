@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 print(__name__)
 
-@app.route("/")
+@app.route("https://blog-9b6j.onrender.com/")
 def hello_world():
     return "<p>Hello, World!</p>"
 
